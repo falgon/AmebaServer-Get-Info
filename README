@@ -1,3 +1,8 @@
+This operates on linux. 
+Moreover, if there is no GTK, it will not operation. 
+
 It is a tool which acquires an amoeba server's maintenance information. 
 Maintenance information is acquirable by compiling main.cpp and registering with cron. 
 It does not notify, when information is not updated. 
+
+Please set a Perl script and the binary in the same directory.
