@@ -1,8 +1,4 @@
-This operates on linux. 
-Moreover, if there is no GTK, it will not operation. 
+Linux + GTKで動くアメーバサーバ（http://www.ameba.jp/)のメンテナンス情報を取得するツール。
 
-It is a tool which acquires an amoeba server's maintenance information. 
-Maintenance information is acquirable by compiling main.cpp and registering with cron. 
-It does not notify, when information is not updated. 
-
-Please set a Perl script and the binary in the same directory.
+個人的な理由かつやっつけで作ったので少々アレだがcppからのバイナリをcronとかのタスクアプリに登録すれば定期的にチェックする仕様。
+バイナリとperlファイルは同ディレクトリ以下でおねしゃす。
